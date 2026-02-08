@@ -7,7 +7,7 @@ import (
 
 	"github.com/fekuna/omnipos-audit-service/internal/audit/usecase"
 	"github.com/fekuna/omnipos-pkg/logger"
-	auditv1 "github.com/fekuna/omnipos-proto/proto/audit/v1"
+	auditv1 "github.com/fekuna/omnipos-proto/gen/go/omnipos/audit/v1"
 	"go.uber.org/zap"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"
